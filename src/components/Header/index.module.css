@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.headerText {
+  display: flex;
+  flex-flow: column;
+  margin-left: 10px;
+}
+
+.headerTitle {
+  margin: 0;
+  color: #333;
+  font-size: 24px;
+}
+
+.headerSubtitle {
+  color: #666;
+  font-size: 16px;
+}
