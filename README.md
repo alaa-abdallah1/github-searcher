@@ -29,13 +29,19 @@ The solution involves setting up a React application with TypeScript, managing t
 git clone https://github.com/alaa-abdallah1/github-searcher.git
 ```
 
-2. Install dependencies using
+2. Navigate to the project directory:
+
+```
+cd github-searcher
+```
+
+3. Install dependencies using
 
 ```
 npm install
 ```
 
-3. Start the development server with
+4. Start the development server with
 
 ```
 npm run dev
@@ -47,7 +53,7 @@ npm run dev
 npm run build
 ```
 
-7. Preview the production build with
+6. Preview the production build with
 
 ```
 npm run preview
