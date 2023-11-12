@@ -1,0 +1,22 @@
+.navbar {
+  display: flex;
+  flex-flow: column;
+  padding: var(--padding);
+  justify-content: center;
+  box-shadow: var(--box-shadow);
+  background: var(--background-light);
+  border-radius: 0 0 var(--border-reduis) var(--border-reduis);
+}
+
+.main {
+  margin: var(--padding) 0px;
+}
+
+@media (max-width: 1000px) {
+  .navbar {
+    border-radius: 0;
+  }
+  .main {
+    margin: var(--padding) var(--padding);
+  }
+}

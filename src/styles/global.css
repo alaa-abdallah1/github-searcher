@@ -1,0 +1,47 @@
+:root {
+  --padding: 1rem;
+  --screen-width: 1000px;
+  --border-reduis: 0.25rem;
+  --background-light: #fff;
+  --font-size-large: 1.1rem;
+  --font-size-medium: 0.9rem;
+  --box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: auto;
+  min-width: 270px;
+  background: #f0f0f0;
+  max-width: var(--screen-width);
+}
+
+/* This styles the scrollbar track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* This styles the scrollbar itself */
+::-webkit-scrollbar {
+  width: 5px; /* You can set the width of the scrollbar */
+}
+
+/* This styles the handle of the scrollbar */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin; /* "auto" or "thin" */
+  scrollbar-color: #888 #f1f1f1; /* thumb and track color */
+}
