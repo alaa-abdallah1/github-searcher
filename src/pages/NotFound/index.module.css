@@ -1,0 +1,28 @@
+.notFoundContainer {
+  height: 80vh;
+  display: flex;
+  color: #0a0a0a;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: var(--box-shadow);
+  background: var(--background-light);
+  border-radius: var(--border-reduis);
+}
+
+.heading {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.text {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 1000px) {
+  .notFoundContainer {
+    border-radius: 0;
+  }
+}
