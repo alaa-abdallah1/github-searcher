@@ -2,6 +2,9 @@
 
 GitHub Searcher is a single-page application that leverages the GitHub Search API to allow users to search for GitHub users or repositories. The application is built with React.js, TypeScript, Redux with redux-persist, React Router, and vanilla CSS for styling.
 
+## Live Demo
+[View the live demo ↗.](https://github-searcher-45ss.onrender.com)
+
 ## Features
 
 - **Entity Type Selection**: Users can choose to search for either GitHub users or repositories using a dropdown menu.
@@ -9,6 +12,18 @@ GitHub Searcher is a single-page application that leverages the GitHub Search AP
 - **Infinite Scrolling**: Users can scroll through a seemingly endless list of search results, loaded dynamically as they scroll.
 - **Responsive Design**: The layout adjusts gracefully to different screen sizes, ensuring a seamless experience on both desktops and mobile devices.
 - **State Handling**: The application handles various states like initial load, loading, error, and empty results, providing feedback to the user at each stage.
+
+## Screenshots
+Here are some screenshots of the main pages:
+
+![image](https://github.com/alaa-abdallah1/github-searcher/assets/97352430/a977cdf9-899e-405a-bf72-46d525f59983)
+
+![image](https://github.com/alaa-abdallah1/github-searcher/assets/97352430/c47e01f0-b204-444c-b2f0-711153e7f669)
+
+![image](https://github.com/alaa-abdallah1/github-searcher/assets/97352430/9c9f5329-e991-4cc9-af96-93f0a0c8b557)
+
+![image](https://github.com/alaa-abdallah1/github-searcher/assets/97352430/253383e6-75a6-4f2a-b6d1-9b61e739e276)
+
 
 ## High-Level Solution
 
